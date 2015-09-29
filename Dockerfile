@@ -1,9 +1,7 @@
 # AlpineLinux with a glibc-2.21 and Oracle Java 8
 
 FROM opensuse
-RUN zypper --non-interactive install \
-        curl \
-        tar 
+RUN zypper --non-interactive install curl tar wget unzip
 
 
 # Java Version
